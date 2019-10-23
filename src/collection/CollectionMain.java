@@ -17,6 +17,10 @@ public class CollectionMain {
 		strings.add(null);
 		strings.add(null);
 		strings.forEach(System.out::println);
+		
+		objects.forEach(i -> {if("D".equals(i)) {System.out.println(i);}});
+		
+		objects.stream().filter(s -> s.contains("C")).forEach(System.out::println);
 	}
 
 }

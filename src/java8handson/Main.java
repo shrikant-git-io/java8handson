@@ -23,6 +23,7 @@ public class Main {
 		custi.calculate("shrikant");
 		CustomFunctionalInterface.test();
 		
+		//custi = new CustomFunctionalInterface();
 		
 		Optional<Person> p = Optional.of(new Person());
 		
